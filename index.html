@@ -28,7 +28,6 @@
         <label>Release year</label>
         <input type="text" name="movie[release_year]" id="movie[release_year]"></br>
 
-  
         <label class="character-name">Character name</label>
         <input class="character-names" type="text" name="movie[characters_attributes][0][name]" id="movie[characters_attributes][0][name]" placeholder="Name here"></br>
           
@@ -41,5 +40,30 @@
 
         <br></br>
         <input id="add-characters" type="button" value="Add more characters" onclick="addMoreCharacter()"><br> 
-        <input class="submit" type="submit" value="submit">
+        <input class="submit" type="submit" value="Submit">
       </form>
+
+      <div id="ghibli-video">
+        <iframe width="1000" height="750"
+        src="https://www.youtube.com/embed/EDRmJSwrVns">
+        </iframe>
+    </div>
+
+    <div id="card-area">    
+    </div>
+
+    <div id="create-movie">
+      <img src="./src/images/create.jpg">
+       <p>Add a Ghibli Movie!</p>
+    </div>>
+
+  <button id="sort-button">Sort by the title!</button>>
+
+  <script type="application/javascript" src="src/index.js" charset="UTF-8"></script>
+  <script type="application/javascript" src="src/movie.js" charset="UTF-8"></script>
+  <script type="application/javascript" src="src/director.js" charset="UTF-8"></script>
+  <script type="application/javascript" src="src/character.js" charset="UTF-8"></script>
+  <script type="application/javascript" src="src/practical.js" charset="UTF-8"></script>
+  <link rel="stylesheet" href="./style.css">      
+</body>
+</html>
